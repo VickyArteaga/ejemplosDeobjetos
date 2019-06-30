@@ -34,10 +34,10 @@ class Mamifero(Animal):
     sangre_caliente = True
 
     def parir(self):
-        pass
+        return "Parir"
 
     def amamantar(self):
-        pass
+        return "amantar"
 
 
 class Delfin(Mamifero):

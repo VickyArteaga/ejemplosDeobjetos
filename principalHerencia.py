@@ -18,6 +18,8 @@ print("A Flipper", flipper.nadar())
 flipper.setpeso(1800)
 print("y pesa ", flipper.getpeso())
 print("ademas de ", flipper.saltar(), "muy alto")
+alimentarse = flipper.amamantar()
+print("Nuestro querido flipper se pudo", alimentarse, "de su madre durante 6 meses")
 
 print("----------------------la gallina ---------------------------")
 
